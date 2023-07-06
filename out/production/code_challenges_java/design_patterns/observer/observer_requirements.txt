@@ -1,0 +1,16 @@
+Imagine the following scenario: "a teacher in front of a class full of students". When the
+teacher teaches, the students receive the info that the teacher is sharing with them.
+
+The teacher is "observed" subject and students "observe" the teacher.
+
+Given the interfaces below, implement Student class and Teacher class so that the following
+main method will print the expected message.
+
+public interface ObservedSubject{
+    void register(Observer obj);
+    void unregister(Observer obj);
+    void notifyObservers(String message);
+}
+public interface Observer{
+    void update(String message);
+}

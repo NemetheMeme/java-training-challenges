@@ -1,0 +1,33 @@
+Using the Decorator design pattern decorate the following Christmas Tree
+    Original Tree
+         <>
+        <  >
+       <    >
+      <      >
+     <        >
+    <          >
+   <            >
+  <              >
+ <                >
+<                  >
+        |   |
+        |   |
+        |   |
+
+           Decorated Tree
+                 <>
+                <  >
+               <    >
+              <CCCCCC>
+             <        >
+            <          >
+           <BBBBBBBBBBBB>
+          <              >
+         <GGGGGGGGGGGGGGGG>
+        <                  >
+                |   |
+                |   |
+                |   |
+
+
+The given code is given in ChristmasTree and DecorableTree classes

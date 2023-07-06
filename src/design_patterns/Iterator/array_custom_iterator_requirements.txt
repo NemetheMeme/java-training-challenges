@@ -1,0 +1,7 @@
+Implement the iterator pattern for an integer array. The Iterator class
+should be named ArrayCustomIterator and should have 2 methods:
+    boolean hasNext();
+    int next();
+
+P.S. I implemented this class using Generics so it could be used
+by any Object array

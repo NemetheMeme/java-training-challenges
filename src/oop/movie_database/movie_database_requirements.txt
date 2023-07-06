@@ -1,0 +1,25 @@
+Create the following classes:
+Award
+    name: String
+    year: Integer
+
+Actor
+    name: String
+    age: Integer
+    awards: Award[]
+
+Movie
+    releaseYear: Integer
+    name: String
+    actors : Actor[]
+
+Studio
+    name: String
+    movies: Movie[]
+
+Create your own object instances and relationships between them.
+
+Implement the following:
+1.Get all studio names that have published more than 2 movies.
+2.Get the studio names in which played the actor with a given name.
+3.Get the movie names in which plays at least an actor with age above 50.

@@ -1,0 +1,12 @@
+Create two concrete implementations of the following abstract classes:
+AscendingInsertionSort and DescendingInsertionSort.
+One will sort in ascending order and the other in descending order.
+
+public abstract class TemplateMethodInsertionSort{
+
+    void sort(Integer[] list);
+    abstract boolean numbersInCorrectOrder(Integer i1, Integer i2);
+
+}
+
+P.S. This implementation is using Generics, instead of just Integer object

@@ -1,0 +1,6 @@
+Create a class named Fighter that has the following state and behavior:
+ - name, health, damagePerAttack
+ - attack(Fighter opponent)
+
+ Create a class named BoxingMatch that will receive on it's constructor 2 instances of Fighter;
+ The class will have 1 method names fight() that will return a String containing the name of the winner;

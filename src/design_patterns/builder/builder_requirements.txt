@@ -1,0 +1,6 @@
+Given a Person class with the following fields: name,job,university, drivingLicense,isMarried.
+When creating a new Person, only the name field is required, al the others are optional.
+Create a builder class that will help you create instances of Person class.
+
+
+

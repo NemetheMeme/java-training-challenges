@@ -1,0 +1,17 @@
+Given the following scenario: "A student want to rent an apartment from a real estate agent",
+make use of the proxy design pattern and implement this scenario in an OO way.
+
+The real estate agent had some issues in the past with student that have their names starting
+with the letter "P" and now they refuse to rent apartment to anybody who's name starts with
+the letter "P".
+
+Implement a class Apartment
+    location: String
+    monthlyRentCost: int
+ and a class Student
+    name: String
+    money: int
+
+The RealEstateAgentProxy has 2 methods:
+    void represent(Apartment apartment);
+    Apartment rent(Student student, Apartment apartmentToBeRented);

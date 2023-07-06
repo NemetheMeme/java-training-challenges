@@ -1,0 +1,19 @@
+P.S. This challenge implementation is done through Generics
+
+Given an interface SortingStrategy with the following method:
+    void sort(Integer[] list);
+
+Implement 2 sorting strategy, then use the following displaySorted method signature to apply them:
+    void displaySorted(SortingStrategy strategy, Integer[] arr);
+
+example:
+    public static void main(String[] main){
+    Integer[] arr = new Integer[]{1,4,5,2,5,6,8,8,7};
+
+    Integer[] copy_one_of_arr =  Arrays.copyOf(arr,arr.length);
+    Integer[] copy_two_of_arr =  Arrays.copyOf(arr,arr.length);
+
+    displaySorted(new Strategy(), copy_one_of_arr);
+    }
+
+
