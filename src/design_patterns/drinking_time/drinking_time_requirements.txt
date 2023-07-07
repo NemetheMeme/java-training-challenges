@@ -1,0 +1,18 @@
+Given the IPerson interface from below, create the following:
+-> An annotation called LogExecutionTime for making the drinking method
+-> Implement PersonInvocationHandler by implementing the java.lang.reflect.InvocationHandler
+interface and calculate execution time inside the invoke method.
+-> in the PersonInvocationHandler invoke method, implement a filter to check if the method
+that will be called is annotated with LogExecutionTime annotation. If it is annotated, then log
+the execution time.
+-> A builder pattern in order to create a Person instance
+-> The build method of the person builder should return a proxy for the person class.
+Use the proxy pattern, by creating a dynamic proxy using java.lang.reflect.Proxy,newProxyInstance
+(PersonInvocationHandler.class.getClassLoader(), new Class[]{IPerson.class}, new PersonInvocationHandler(person))
+
+Interface IPerson {
+    void walk();
+    @LogExecutionTime void drink();
+
+    String getName();
+}
