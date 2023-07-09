@@ -1,0 +1,6 @@
+Write a program that given a number(with arbitrary number of digits)
+converts it into LCD style numbers, Each Digit is 3 lines high
+
+The input will be read from an input.txt file and outpu8t will be writen
+to output.txt
+

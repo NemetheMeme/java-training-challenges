@@ -1,0 +1,2 @@
+Using Scanner, count how many times a word appears in a large text file provided as input
+Display top 10 word counts to the console after counting all
